@@ -1,0 +1,48 @@
+body {
+    font-family: 'Merienda', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(196, 240, 36);
+}
+
+h2 {
+    font-size: 40px;
+    color: rgba(49, 107, 35, 0.877);
+    orientation: rgb;
+}
+
+h3 {
+    color: rgba(20, 93, 141, 0.658);
+
+}
+
+h4 {
+    color: rgb(32, 32, 168)
+}
+
+.orange-color {
+    color: orange;
+}
+
+.blue-color {
+    color: blue;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, blue);
+    color: azure;
+    font: weight 400px;
+    padding: 4px 20px;
+    border-radius: 3px;
+}
