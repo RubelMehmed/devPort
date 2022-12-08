@@ -1,0 +1,71 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/ga0.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: rgb(25, 18, 124);
+
+}
+.hero_desc {
+    font-size: 2rem;
+    color:#36119d;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Microbe', cursive;
+}
+.hero-text {
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #121f67;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fab {
+    color: #a672ca;
+}
+
+/* social media icons styling */
+.fav-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fab {
+    color: #300bb5;
+}
+/* footer styling */
+#footer {
+    background-color: #170836;
+    text-align: center;
+}
